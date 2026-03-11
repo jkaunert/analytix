@@ -72,10 +72,6 @@ setuptools.setup(
     author_email=attrs["author_email"],
     license=attrs["license"],
     classifiers=[
-        # "Development Status :: 1 - Planning",
-        # "Development Status :: 2 - Pre-Alpha",
-        # "Development Status :: 3 - Alpha",
-        # "Development Status :: 4 - Beta",
         "Development Status :: 5 - Production/Stable",
         "Environment :: Console",
         "Intended Audience :: Developers",
@@ -95,6 +91,8 @@ setuptools.setup(
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3.12",
         "Programming Language :: Python :: 3.13",
+        "Programming Language :: Python :: 3.14",
+        "Programming Language :: Python :: 3.15",
         "Programming Language :: Python :: Implementation :: CPython",
         "Programming Language :: Python :: Implementation :: PyPy",
         "Topic :: Internet",
@@ -110,7 +108,7 @@ setuptools.setup(
         "Changelog": attrs["changelog"],
     },
     install_requires=parse_requirements("requirements/base.txt"),
-    python_requires=">=3.8.0,<3.15",
+    python_requires=">=3.8.0,<4.0",
     packages=setuptools.find_packages(),
     include_package_data=True,
 )
