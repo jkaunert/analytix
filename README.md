@@ -119,7 +119,7 @@ To show more (or less) messages, pass a logging level as an argument.
 
 ## Compatibility
 
-CPython versions 3.8 through 3.14 and PyPy versions 3.9 and 3.10 are officially supported\*.
+CPython versions 3.8 through 3.14 and PyPy versions 3.9 through 3.11 are officially supported\*.
 CPython 3.15-dev is provisionally supported\*.
 Windows, MacOS, and Linux are all supported.
 
